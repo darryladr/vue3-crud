@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "7bd344e6-40de-49e0-bf7c-6e0b2a537a15",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://159.223.57.121:8090/barang/create",
+    "url": "http://159.223.57.121:8090/barang/create",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-28T00:20:11.000Z",
+    "modified": "2023-02-28T00:21:18.079Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhIiwiZXhwIjoxNjc3NTYxNTIyLCJpYXQiOjE2Nzc1NDM1MjJ9.h26NMW0n0kZxoEYmoaF4n25KXCBNEeLH7FDYhwBEa7wl00tEjnusgjeQS9x6Z24CsWN1P8kVt584HfpMqv_-fQ"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": \"\",\n  \"namaBarang\": \"Test\",\n  \"harga\": \"0813123123\",\n  \"stok\": \"0\",\n  \"supplier\": {\n    \"id\": 1366,\n    \"namaSupplier\": \"IndoFood Nice\",\n    \"noTelp\": \"9999\",\n    \"alamat\": \"Jakarta\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
