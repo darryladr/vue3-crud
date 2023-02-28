@@ -19,13 +19,6 @@ export const registerSchema = loginSchema
     confirmPassword: z.string(),
   })
   .superRefine((val, ctx) => {
-    if (val.password.length < 6) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        message: 'Must be at least 6 characters',
-        path: ['password'],
-      });
-    }
     if (val.password !== val.confirmPassword) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,

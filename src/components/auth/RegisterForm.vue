@@ -32,7 +32,7 @@ Register
           id="password"
           v-model="password"
           name="password"
-          type="text"
+          type="password"
           label="Password"
         />
         <ErrorMessage class="text-red-500" name="password" />
@@ -40,7 +40,7 @@ Register
           id="confirmPassword"
           v-model="confirmPassword"
           name="confirmPassword"
-          type="text"
+          type="password"
           label="Confirm Password"
         />
       </div>

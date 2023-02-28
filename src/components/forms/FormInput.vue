@@ -4,7 +4,7 @@
       props.label
     }}</label>
     <div
-      v-if="props.name === 'password'"
+      v-if="props.type === 'password'"
       class="relative mt-2 flex items-center"
     >
       <button
