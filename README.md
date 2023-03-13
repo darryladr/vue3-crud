@@ -1,6 +1,6 @@
-# testvue
+# vue3-crud
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple CRUD App built using Vue3 + TypeScript, Zod, Vee-Validate, and TailwindCSS.
 
 ## Recommended IDE Setup
 
